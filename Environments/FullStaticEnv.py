@@ -96,7 +96,8 @@ class MazeEnv(gym.Env):
         obs = self._get_obs()
         #self.render()
         return obs, reward, terminated, False, info
-            
+
+        #another type of step function i tryed
         '''self.step_count += 1
         if self.step_count >= self.max_step:
             
